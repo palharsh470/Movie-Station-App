@@ -27,26 +27,31 @@ export default function Details() {
             <View style={{
                 height: "48.5%"
             }}>
+
+
+
                 <Image style={{
                     width: '100%',
-                    aspectRatio: 3 / 2
+                    aspectRatio: 3 / 2,
                 }}
                     src={moviedetail.Poster}></Image>
 
-                <View style={{ flexDirection: "row",
-                    backgroundColor:"yellow",
-                    width:60,
-                    borderRadius:15,
-                    position:"absolute",
-                    right:10,
-                    top:10,
-                    gap:5,
-                   padding:5,
-                    justifyContent:'center'
-                    
-                 }}><Star size={20} color="#0f0f02ff" weight="regular" /><Text style={{
-                    fontSize:14
-                 }}>{moviedetail.imdbRating}</Text></View>
+
+                <View style={{
+                    flexDirection: "row",
+                    backgroundColor: "yellow",
+                    width: 60,
+                    borderRadius: 15,
+                    position: "absolute",
+                    right: 10,
+                    top: 10,
+                    gap: 5,
+                    padding: 5,
+                    justifyContent: 'center'
+
+                }}><Star size={20} color="#0f0f02ff" weight="regular" /><Text style={{
+                    fontSize: 14
+                }}>{moviedetail.imdbRating}</Text></View>
                 <TouchableOpacity style={{
                     position: "absolute",
                     right: "44%",
@@ -59,7 +64,8 @@ export default function Details() {
                     aspectRatio: 0.7,
                     position: "absolute",
                     top: 180,
-                    right: "31%"
+                    right: "31%",
+borderRadius:10                
                 }}
                     src={moviedetail.Poster}></Image>
             </View>

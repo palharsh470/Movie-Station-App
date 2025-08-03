@@ -60,9 +60,9 @@ export default function Moviecard({ items, favourite, setfavourite }) {
                         width: "80%",
                     }}
                     >
-                        <Text style={{
+                        <Text 
+                        numberOfLines={2} style={{
                             fontWeight: "bold",
-
                         }}>{items.Title} - {items.Year}</Text>
                     </View>
 
