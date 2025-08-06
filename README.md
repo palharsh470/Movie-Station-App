@@ -1,8 +1,44 @@
-# Welcome to your Expo app 👋
+# 🎬 Movie Explorer App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A cross-platform mobile app built with **React Native**, **JavaScript**, and **Expo** that allows users to explore and search for movies using the **OMDb API**.
 
-## Get started
+---
+
+## 🚀 Features
+
+- 🔍 Real-time movie search using the OMDb API  
+- 🔐 User login (with basic auth or Firebase/Auth integration placeholder)  
+- ❤️ Favorites management – add/remove movies to your personal list  
+- 🖼️ Dynamic routing – click movie posters to view detailed info  
+- 📱 Responsive UI and smooth animations across Android and iOS  
+- ⚡ Seamless navigation using React Navigation
+
+---
+
+## 📸 Screenshots
+
+| Login Page | Home Screen | Search Results | Movie Details | Favorites Page |
+|------------|-------------|----------------|----------------|----------------|
+| ![Login](assets/images/login.jpg) | ![Home](assets/images/home.jpg) | ![Search](assets/images/search.jpg) | ![Details](assets/images/details.jpg) | ![Favorites](assets/images/favourites.jpg) |
+
+
+
+
+
+
+---
+
+## 🎥 Demo Video
+
+<a href="https://www.instagram.com/reel/DM_EBd7B4bb">
+  <img src="assets/images/videologo.jpg" alt="Watch Demo" width="200"/>
+</a>
+
+
+---
+
+
+## 🔧 Get started
 
 1. Install dependencies
 
